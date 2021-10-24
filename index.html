@@ -2,10 +2,80 @@
 <html lang="en" style="width:100%; height:100%;">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Cameron's Resume</title>
+  <title>cchriste.io</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
+<style>
+ html {
+	   color: black;
+	   background-color: white;
+	   font-family: Arial;
+	   overflow: hidden;
+ }
+ body {
+	   padding: 0;
+	   margin: 0;
+ }
+ #name, #projects {
+     font-size: large;
+ }
+ #title {
+     font-style: italic;
+ }
+ #intro {
+     font-style: oblique;
+ }
+ #outro {
+     font-style: italic;
+ }
+ signature {
+     width: 100px;
+     height: 25px;
+ }
+ .sig {
+     font-style: large;
+     text-decoration: none;
+     position: absolute;
+	   padding: 5px 5px 5px 10px;
+     bottom: 0;
+     right: 0;
+     color: orange;
+     opacity: 100%;
+ }
+ .sig:hover {
+     color: #22fc00;
+ }
+</style>
+
 <body style="width:100%; height:100%; margin:0;">
+    <img class="propic" src="assets/profile.jpg" alt="yours truly">
+    <p id="name">Cameron Christensen</p>
+    <p id="title">Software Developer</p>
+    <p id="intro">I'm currently a software developer at the University of Utah Scientific Computing and Imaging Institute. My passion is graphics--especially ray tracing--and visualization. I like people, too.
+
+    <p id="projects">Some of my personal projects</p>
+    <a href="./reflections/lambertians.html">Lambertian reflection simulator</a>
+    <br>
+    <br>
+    <p id="resume">After over a decade with SCI it's time for me to move on. I finished a MS in Computing focused on Graphics and Visualization in 2019 and I'm ready to embrace my passions. This past ~two years of working remotely have helped illuminate my strengths and joys and they have reinforced my desire to help build ray tracers."</p>
+    <a href="./Cameron Christensen Resume.pdf">Resumé</a>
+    <br>
+    <br>
+    <p id="projects">Some of my projects at SCI</p>
+    <a href="https://sci.utah.edu/software/shapeworks.html">ShapeWorks Image Analysis Suite</a><br>
+    <a href="https://github.com/SCIInstitute/dSpaceX">dSpaceX: design Space eXplorer</a><br>
+    <a href="https://visus.org">OpenViSUS Streaming Visualization Framework</a><br>
+    <a href="https://craniorate.org">CranioRate</a><br>
+    <a href="https://aqandu.org">AQ&U air quality monitoring</a><br>
+    <br>
+    <p id="outro">Yes, this site is just getting started. It's a long ways from C++ to HTML, but no problem!</p>
+
+    <!-- This was cool to just show a pdf when the page was loaded. I'll still probably use it rather than a download link. -->
     <!-- Right click 'Download' and copy link. That works, while '..., Copy Permalink' does not. -->
-    <iframe src="https://docs.google.com/gview?url=https://github.com/cchriste/cchriste.github.io/raw/master/Cameron%20Christensen%20Resume.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
-  </body>
+    <!-- <iframe src="https://docs.google.com/gview?url=https://github.com/cchriste/cchriste.github.io/raw/master/Cameron%20Christensen%20Resume.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe> -->
+
+    <!--     <img class="signature" src="assets/sig_white.png" alt="'cuz I'm <ctc>"> -->
+    <a class="sig" href="https://cchriste.io"><𝓬𝓽𝓬></a>
+</body>
 </html>
